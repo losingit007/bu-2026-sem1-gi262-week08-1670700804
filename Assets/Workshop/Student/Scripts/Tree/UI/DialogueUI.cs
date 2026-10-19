@@ -42,7 +42,7 @@ public class DialogueUI : MonoBehaviour
         for (int i = 0; i < choices.Count; i++)
         {
             string choiceText = choices[i];
-            CreateChoiceButton(choiceText,i);
+            CreateChoiceButton(choiceText, i);
         }
         
     }
